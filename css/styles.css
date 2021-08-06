@@ -103,7 +103,21 @@ p
     border-radius: 50%;
     width:10%;
 }
-h2
+.testimonial-text
 {
-    padding:auto 100px auto 100px;
+    padding:0 200px 0 200px;
+
 }
+#pricing
+{
+    text-align: center;
+
+}
+#cta
+{
+    background-color:  #ff4c68;
+    padding:100px;
+    text-align: center;
+}
+
+    
