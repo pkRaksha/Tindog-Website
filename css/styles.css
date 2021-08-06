@@ -2,6 +2,7 @@
 {
     background-color: #ff4c68;
     color:white;
+
 }
 
 h1
@@ -54,23 +55,32 @@ body
 {
     width:50%;
     transform:rotate(25deg);
-    position: relative;
-    left: 100px;
-}
-#features
-{
-    padding:100px 50px 100px 50px;
+    position: absolute;
+   
+
+    
 }
 h3
 {
-    text-align: center;
+    
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
+    font-size: 1.5rem;
 
 }
+.icon
+{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+
+}
+
 p
 {
-    text-align: center;
+    
     color:grey;
     font-size: 1rem;
 }
@@ -111,13 +121,55 @@ p
 #pricing
 {
     text-align: center;
+    padding:0
 
 }
 #cta
 {
     background-color:  #ff4c68;
-    padding:100px;
+    text-align: center;
+    padding:10%;
+}
+#features
+{
+    background-color: #fff;
+    padding:7% 15%;
+    z-index:1;
+    position:relative;
+
+}
+.feature-box
+{
+    text-align: center;
+    padding:4.5%;
+}   
+
+@media(max-width:1000px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position:static;
+        transform:rotate(0);
+    }
+}
+.lastsection
+{
+    color:whitesmoke; 
+    font-family: 'Montserrat', sans-serif;
+
+}
+#footer
+{
     text-align: center;
 }
-
-    
+#end
+{
+    padding:5%;
+}
+h2{
+    padding-top:4.5%;
+}
